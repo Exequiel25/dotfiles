@@ -34,9 +34,10 @@ source ~/.zsh/plugins/copydir/copydir.plugin.zsh
 source ~/.zsh/plugins/dirhistory/dirhistory.plugin.zsh
 # My Plugins
 # RGB Keyboard
-source ~/.zsh/plugins/rgb-keyboard/rgb-keyboardctl.plugin.zsh
+# source ~/.zsh/plugins/rgb-keyboard/rgb-keyboardctl.plugin.zsh
 
 # Alias
 alias ls='eza --icons --colour=always --color-scale-mode=gradient --group-directories-first'
-alias matlab='/usr/local/MATLAB/R2023b/bin/matlab'
-alias init-conda='source ~/.zsh/conda/init-conda.sh'
+# alias matlab='/usr/local/MATLAB/R2023b/bin/matlab'
+# alias init-conda='source ~/.zsh/conda/init-conda.sh'
+
