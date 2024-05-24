@@ -2,8 +2,7 @@
 
 if exists('g:vscode')
     " VS Code extension
-    " source ~/.config/nvim/vscode/settings.vim " When using linux
-    source C:\Users\Exequiel\Documents\dotfiles\nvim\vscode\settings.vim " When using Windows
+    source ~\Documents\dotfiles\nvim\vscode\settings.vim " When using Windows
 else
     " Neovim settings
     set number
