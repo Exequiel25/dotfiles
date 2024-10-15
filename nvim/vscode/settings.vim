@@ -1,6 +1,7 @@
 " REVIEW this is the original file, look what should be modified
 " TODO there is a more contemporary version of this file
 "VSCode
+
 function! s:split(...) abort
     let direction = a:1
     let file = a:2
