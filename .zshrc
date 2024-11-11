@@ -42,3 +42,4 @@ alias ls='eza --icons --colour=always --color-scale-mode=gradient --group-direct
  alias conda-init='source ~/.zsh/conda/conda-init.sh'
 
 #export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0 export LIBGL_ALWAYS_INDIRECT=1
+source /opt/ros/jazzy/setup.zsh
