@@ -43,3 +43,5 @@ alias ls='eza --icons --colour=always --color-scale-mode=gradient --group-direct
 
 #export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0 export LIBGL_ALWAYS_INDIRECT=1
 source /opt/ros/jazzy/setup.zsh
+# For WSL2
+export QT_XCB_GL_INTEGRATION=none
